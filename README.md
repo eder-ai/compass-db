@@ -6,7 +6,7 @@ CompassDB is an open soruce ORM for [Gaia] (https://github.com/blockstack/gaia) 
 It’s compatible with the Blockstack ecosystem which leverages the Gaia storage, to provide database methods for developers.
 ## Getting Started
 To get started,
-> `npm install compassdb`
+> `npm install compass-db`
 
 Or you can download the compassDB-min-js  from here.
 
@@ -36,7 +36,7 @@ The two main components are:
 * **Documents:** These are the basic structural unit of the database. Every document contains a group of key-value pairs. These are used to identify and manage request of files in the storage.
 A basic constructor declaration is done with `constructor(collectionName, encrypt_decrypt).`
 
-* **Collections:**Collections are described as a set of Documents. Every Collection instance contains the name of all the Documents within that set and their status.
+* **Collections** Collections are described as a set of Documents. Every Collection instance contains the name of all the Documents within that set and their status.
 
 To setup a new connection, we must first create an instance of CompassDB followed by creating a new collection for usage(as shown in the example previously).
 

@@ -2,7 +2,7 @@
   "name": "compass-db",
   "version": "0.1.0",
   "description": "Open Source ORM for Gaia",
-  "main": "compassdb.js",
+  "main": "src/compassdb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,8 @@
   },
   "keywords": [
     "gaia",
-    "blockstack.js",
-    "blockstack-storage.js"
+    "blockstack",
+    "blockstack-storage"
   ],
   "author": "Eder AI <team@eder.io> (http://www.eder.io/)",
   "license": "MIT",
