@@ -1,6 +1,6 @@
 # CompassDB
 
-CompassDB is an open soruce ORM for [Gaia] (https://github.com/blockstack/gaia) storage.
+CompassDB is an open source ORM for [Gaia] (https://github.com/blockstack/gaia) storage.
 
  It provides an abstraction of a database over the file-based storage system provided by Gaia.
 It’s compatible with the Blockstack ecosystem which leverages the Gaia storage, to provide database methods for developers.
@@ -21,10 +21,10 @@ const collection = compassdb.newCollectionInstance(COLLECTION_NAME, true);
 collection.createCollection()
   .then((successResponse) => {
     // Promise Resolved
+  });
   .catch((failureResponse) => {
     // Promise Rejected
   });
-});
 
 ```
 ## Core Components
